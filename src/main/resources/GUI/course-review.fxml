@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.layout.VBox?>
+<AnchorPane prefHeight="250.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.SeeCourseReviewInputController">
+<children>
+    <Label layoutX="139.0" layoutY="20.0" text="Course Review" />
+    <ScrollPane fx:id = "messageScrollPane" layoutX="30.0" layoutY="50.0" prefHeight="160.0" prefWidth="290.0">
+        <content>
+        </content>
+    </ScrollPane>
+    <Label fx:id = "averageRatingLabel" layoutX="30.0" layoutY="220.0" text="Average Rating:" />
+    <Button fx:id="backButton" layoutX="250.0" layoutY="220.0" mnemonicParsing="false" onAction="#handleBackButtonAction" text="Back" />
+</children>
+</AnchorPane>
